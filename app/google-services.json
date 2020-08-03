@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "298714192986",
+    "firebase_url": "https://pide-facil-delivery.firebaseio.com",
+    "project_id": "pide-facil-delivery",
+    "storage_bucket": "pide-facil-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298714192986:android:246cd99aa6e21127914c63",
+        "android_client_info": {
+          "package_name": "com.pidefacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298714192986-8iu629rpd8guvl6qhjab6nv0u99oqs5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pidefacil",
+            "certificate_hash": "0cab6ba6e41dfffe81c649992c3b6241ef54835a"
+          }
+        },
+        {
+          "client_id": "298714192986-8aqthdjoiikp04kk2u7qj0qn4q07k1ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuHM_oFuQNQQZTn0h0aY-c41xIdGQsm1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298714192986-8aqthdjoiikp04kk2u7qj0qn4q07k1ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.pidefacil.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/actionRest"
+            app:destination="@id/nav_restaurant" />
+        <action
+            android:id="@+id/actionLico"
+            app:destination="@id/nav_licoreria" />
+        <action
+            android:id="@+id/actionMarket"
+            app:destination="@id/nav_market" />
+        <action
+            android:id="@+id/actionOtros"
+            app:destination="@id/nav_otros" />
+        <action
+            android:id="@+id/actionPerfil"
+            app:destination="@id/nav_perfil" />
+        <action
+            android:id="@+id/actionSug"
+            app:destination="@id/nav_sugeren" />
+        <action
+            android:id="@+id/actionPed"
+            app:destination="@id/nav_ped" />
+        <action
+            android:id="@+id/actionCarrito"
+            app:destination="@id/nav_carrito" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="com.pidefacil.ui.restaurantes.RestaurantFragment"
+        android:label="@string/menu_restaurant"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/actionProd1"
+            app:destination="@id/nav_productos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_licoreria"
+        android:name="com.pidefacil.ui.licorerias.LicoreriasFragment"
+        android:label="@string/menu_licorerias"
+        tools:layout="@layout/fragment_slideshow">
+        <action
+            android:id="@+id/actionProd2"
+            app:destination="@id/nav_productos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_market"
+        android:name="com.pidefacil.ui.supermercados.SupermercadosFragment"
+        android:label="@string/menu_supermercados"
+        tools:layout="@layout/fragment_supermercados" >
+        <action
+            android:id="@+id/actionProd3"
+            app:destination="@id/nav_productos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_otros"
+        android:name="com.pidefacil.ui.otros.OtrosFragment"
+        android:label="@string/menu_otros"
+        tools:layout="@layout/fragment_otros" >
+        <action
+            android:id="@+id/actionProd4"
+            app:destination="@id/nav_productos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.pidefacil.ProductosFragment"
+        android:label="Productos"
+        tools:layout="@layout/fragment_productos" >
+        <action
+            android:id="@+id/actionMap"
+            app:destination="@id/nav_map" />
+        <action
+            android:id="@+id/actionConf"
+            app:destination="@id/nav_conf" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.pidefacil.PerfilFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_sugeren"
+        android:name="com.pidefacil.SugerenciasFragment"
+        android:label="@string/menu_sugerencias"
+        tools:layout="@layout/fragment_sugerencias" />
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.pidefacil.CarritoFragment"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/fragment_carrito" />
+    <fragment
+        android:id="@+id/nav_ped"
+        android:name="com.pidefacil.PedidosFragment"
+        android:label="@string/menu_pedidos"
+        tools:layout="@layout/fragment_pedidos" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.pidefacil.MapsFragment"
+        android:label="Ubicación"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/nav_conf"
+        android:name="com.pidefacil.ConfirmacionFragment"
+        android:label="Confirmación"
+        tools:layout="@layout/fragment_confirmacion" />
+</navigation>

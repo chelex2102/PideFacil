@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PideFacil</string>
+    <string name="prefs_file">com.pidefacil.PREFERENCE_FILE_KEY</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_restaurant">Restaurantes</string>
+    <string name="menu_licorerias">Licorerias</string>
+    <string name="menu_supermercados">Supermercados</string>
+    <string name="menu_otros">Otros</string>
+    <string name="menu_carrito">Mi carrito</string>
+    <string name="menu_pedidos">Mis pedidos</string>
+    <string name="menu_perfil">Mi cuenta</string>
+    <string name="menu_sugerencias">Sugerencias/Quejas</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

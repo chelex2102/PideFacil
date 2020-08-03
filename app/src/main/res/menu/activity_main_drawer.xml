@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_baseline_restaurant_24"
+            android:title="@string/menu_restaurant" />
+        <item
+            android:id="@+id/nav_licoreria"
+            android:icon="@drawable/ic_baseline_local_drink_24"
+            android:title= "@string/menu_licorerias" />
+        <item
+            android:id="@+id/nav_market"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title= "@string/menu_supermercados" />
+        <item
+            android:id="@+id/nav_otros"
+            android:icon="@drawable/ic_baseline_all_inclusive_24"
+            android:title= "@string/menu_otros" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title= "@string/menu_carrito" />
+        <item
+            android:id="@+id/nav_ped"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title= "@string/menu_pedidos" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title= "@string/menu_perfil" />
+        <item
+            android:id="@+id/nav_sugeren"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title= "@string/menu_sugerencias" />
+
+    </group>
+</menu>
